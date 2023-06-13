@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Team Registration Form</title>
+
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <h2>Team Registration Form</h2>
+  <form id="registration-form">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br><br>
+
+    <label for="university">University:</label>
+    <input type="text" id="university" name="university" required><br><br>
+
+    <label for="teamname">Team Name:</label>
+    <input type="text" id="teamname" name="teamname" required><br><br>
+
+    <label for="teamlead">Team Lead Name:</label>
+    <input type="text" id="teamlead" name="teamlead" required><br><br>
+
+    <label for="telephone">Telephone Number:</label>
+    <input type="tel" id="telephone" name="telephone" required pattern="[0-9]{10}"><br><br>
+
+    <label for="member1">Member 1 Name:</label>
+    <input type="text" id="member1" name="member1" required><br><br>
+
+    <label for="member1tel">Member 1 Telephone:</label>
+    <input type="tel" id="member1tel" name="member1tel" required pattern="[0-9]{10}"><br><br>
+
+    <label for="member2">Member 2 Name:</label>
+    <input type="text" id="member2" name="member2" required><br><br>
+
+    <label for="member2tel">Member 2 Telephone:</label>
+    <input type="tel" id="member2tel" name="member2tel" required pattern="[0-9]{10}"><br><br>
+
+    <label for="member3">Member 3 Name:</label>
+    <input type="text" id="member3" name="member3" required><br><br>
+
+    <label for="member3tel">Member 3 Telephone:</label>
+    <input type="tel" id="member3tel" name="member3tel" required pattern="[0-9]{10}"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
