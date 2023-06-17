@@ -1,0 +1,8 @@
+#welcome {
+    background-image: url('/public/src/img/banner_1.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh;
+    margin-bottom: 50px;
+}

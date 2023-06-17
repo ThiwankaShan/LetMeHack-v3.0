@@ -1,0 +1,9 @@
+.navbar .container-fluid .navbar-nav .nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar .container-fluid .navbar-nav .nav-link {
+    color: #000;
+    align-items: center;
+}
