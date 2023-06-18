@@ -45,7 +45,8 @@ ul li::after {
 
 .event {
   position: relative;
-  width: 500px;
+  width: 600px;
+  height: 200px;
   padding: 15px;
   border-radius: 20px;
   bottom: 0;
@@ -63,7 +64,7 @@ ul li:nth-child(even) .event {
 }
 
 ul li:nth-child(odd) .event {
-  left: -545px;
+  left: -645px;
   border-left: 10px solid;
 
 }
@@ -88,6 +89,8 @@ ul li div {
     display: block !important;
     padding-left: 20px;
     padding-right: 20px;
+    height: fit-content;
+    text-align: center
 }
 
 .content{
@@ -95,6 +98,11 @@ ul li div {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    height: fit-content;
+}
+
+.event-content {
+  height: 100% !important;
 }
 
 ul li:nth-child(even) div {
