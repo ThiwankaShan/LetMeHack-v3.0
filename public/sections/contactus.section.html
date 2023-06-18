@@ -1,30 +1,30 @@
 <link rel="stylesheet" href="/public/src/css/contactUs.css">
 
-<center>
-  <h3>Contact Us</h3>
-  <h5>Keep in touch with us by just dropping an e-mail</h5>
-
-<div class="container p-5">    
-    <form action="/action_page.php">
-      <div class="col-6 name">
-        <div class="form-floating mb-3 FName">
-          <input type="text" class="form-control" id="FirstName" placeholder="First Name"> 
-          <label for="FirstName" class="form-label">First Name</label>           
+<div class="container pt-5 text-center">
+    <h3>Contact Us</h3>
+    <h5>Keep in touch with us by just dropping an e-mail</h5>
+  
+    <div class="container p-5" id="contact-us-form">
+      <form action="/action_page.php">
+        <div class="row name">
+          <div class="col-6 mb-3 FName">
+            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+          </div>
+          <div class="col-6 mb-3 LName">
+            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+          </div>
         </div>
-        <div class="form-floating mb-3 LName">
-          <input type="text" class="form-control" id="LastName" placeholder="Last Name"> 
-          <label for="LastName" class="form-label">Last Name</label>           
-        </div> 
-      </div>
-        <div class="form-floating mb-3 col-6">
-          <input type="email" class="form-control" id="Email" placeholder="Email">
-          <label for="Email" class="form-label">Email address</label>
+        <div class="row">
+          <div class="mb-3 col-12">
+            <input type="email" class="form-control" id="Email" placeholder="Email">
+          </div>
         </div>
-        <div class="form-floating mb-3 col-6">
-          <textarea type="text" class="form-control" id="Message" placeholder="Message"></textarea>
-          <label for="Message" class="form-label">Message</label>        
+        <div class="row">
+          <div class="mb-3 col-12">
+            <textarea type="text" class="form-control" id="Message" placeholder="Message"></textarea>
+          </div>
         </div>
-        <center><button type="submit" class="btn btnC">Submit</button></center>
+        <button type="submit" class="btn btnC text-center">Submit</button>
       </form>
-</div>      
-</center>
+    </div>
+</div>

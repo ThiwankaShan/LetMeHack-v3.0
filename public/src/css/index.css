@@ -1,0 +1,7 @@
+body{
+    color:antiquewhite;
+}
+#page_content {
+    background: linear-gradient(0deg, #000000 0%, #0B270E 100%);
+    margin: 0;
+}
