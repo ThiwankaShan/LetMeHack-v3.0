@@ -1,0 +1,27 @@
+h3 {
+    font-family: 'Hammersmith One';
+    color: rgb(16, 15, 15);
+    font-size: 48px;
+}
+
+#header {
+    text-align: right;
+}
+
+p {
+    font-family: 'Hammersmith One';
+    color: rgb(16, 15, 15);
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Hammersmith One';
+    padding-top: 10px;
+    color: rgb(16, 15, 15);
+    font-size: 20px;
+}
+
+#robot {
+    height: 557px;
+    width: 553px;
+}
