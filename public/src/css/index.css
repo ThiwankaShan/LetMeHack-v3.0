@@ -1,4 +1,4 @@
-#page_background {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,61,28,0.8896826308648459) 100%);
+#page_content {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 61, 28, 0.8896826308648459) 100%);
     margin: 0;
 }
