@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.timeline {
+  background-color: transparent;
+  font-family: "Source Sans Pro";
+  color: #000000;
+}
+
+.timeline h1 {
+  text-align:center;
+  font-size: 40px;
+}
+
+.timeline ul {
+  padding: 50px 0;
+}
+
+.timeline ul li {
+  position:relative;
+  list-style-type: none;
+  width: 6px;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.timeline ul li::after {
+  background: white;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  }
+
+
+.event {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  bottom: 0;
+  background: rgba(239, 240, 243, 0.28);
+}
+
+.event div {
+    display: flex;
+}
+
+.timeline ul li:nth-child(even) .event {
+  left: 45px;
+  border-left: 10px solid;
+
+}
+
+.timeline ul li:nth-child(odd) .event {
+  left: -645px;
+  border-left: 10px solid;
+
+}
+
+
+
+time {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+ 
+.date{
+    border-right: 5px solid;
+    display: block !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+    text-align: center
+}
+
+.content{
+    display: block !important;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: fit-content;
+}
+
+.event-content {
+  height: 100% !important;
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(200px, 0, 0); 
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
