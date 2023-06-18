@@ -1,6 +1,4 @@
-body {
-    background: linear-gradient(180deg, #005728 0%, #01441F 14.9%, #002D15 44.06%, #000000 82.08%);
+#page_background {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,61,28,0.8896826308648459) 100%);
     margin: 0;
-    height: 100vh;
-    background-attachment: fixed;
 }
