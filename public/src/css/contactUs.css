@@ -1,0 +1,47 @@
+h3 {
+    font-family: 'Hammersmith One';
+    color: rgb(16, 15, 15);
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Hammersmith One';
+    color: rgb(16, 15, 15);
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Hammersmith One';
+    padding-top: 10px;
+    color: rgb(16, 15, 15);
+    font-size: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnC {
+    background-color: rgb(128, 128, 128) !important;
+    width: 20%;
+    height: 7%;
+}
+
+.FName, .LName {
+    width: 48%;
+}
+
+.form-floating>.form-control {
+  padding: 1.5rem 0.75rem 0.8rem 0.75rem !important;
+  height: calc(2.5rem + 2px) !important;
+}
+
+.form-floating>label {
+  padding: 0.5rem 0.75rem 0.5rem 0.75rem !important;
+}
+
+#Message {
+    height: 20% !important;
+    padding-top: 20px !important;
+}
