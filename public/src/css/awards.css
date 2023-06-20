@@ -1,0 +1,26 @@
+#award-card {
+  .card {
+    width: 18rem;
+    background: radial-gradient(circle, rgb(70, 70, 70) 0%, rgb(50, 50, 50) 40%, rgb(30, 30, 30) 100%);
+    border-radius: 16px;
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(69, 69, 69, 0.3);
+  }
+
+  .card-text {
+    color: #C0C0C0;
+  }
+
+  #gold {
+    box-shadow: 0 0 23px 7px #FFD700;
+  }
+
+  #silver {
+    box-shadow: 0 0 23px 7px #C0C0C0;
+  }
+
+  #bronze {
+    box-shadow: 0 0 23px 7px #CD7F32;
+  }
+}
