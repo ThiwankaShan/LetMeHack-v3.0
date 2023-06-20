@@ -5,3 +5,7 @@ body{
     background: linear-gradient(0deg, #000000 0%, #0B270E 100%);
     margin: 0;
 }
+
+.section-header{
+    padding:4rem 0 4rem 0;
+}
