@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="src/css/timeline.css">
     <script src="src/js/timeline.js"></script>
+    <script type="text/javascript" src="/public/src/js/smooth-parallax.min.js"></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
         <div id="awards-section" class="py-5"></div>
         <div id="sponsors-section" class="py-5"></div>
         <div id="contactus-section" class="py-5"></div>
-        <div id="footer" class="pt-5"></div>
+        <div id="footer"></div>
     </div>
 
 
@@ -50,7 +51,12 @@
         $("#contactus-section").load('sections/contactus.section.html');
         $("#footer").load('components/footer.component.html');
     </script>
-
+    
+    <script type="text/javascript">
+        window.addEventListener("load", function () {
+            SmoothParallax.init();
+        });
+    </script>
 </body>
 
 </html>

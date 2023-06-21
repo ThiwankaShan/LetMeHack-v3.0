@@ -1,11 +1,11 @@
 #award-card {
   .card {
     width: 18rem;
-    background: radial-gradient(circle, rgb(70, 70, 70) 0%, rgb(50, 50, 50) 40%, rgb(30, 30, 30) 100%);
+    background: radial-gradient(circle, rgb(70, 70, 70, 1) 0%, rgb(50, 50, 50, 0.75) 40%, rgb(30, 30, 30, 0.5) 100%);
     border-radius: 16px;
     backdrop-filter: blur(6.9px);
     -webkit-backdrop-filter: blur(6.9px);
-    border: 1px solid rgba(69, 69, 69, 0.3);
+    border: 1px solid rgba(69, 69, 69, 1);
   }
 
   .card-text {
