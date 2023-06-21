@@ -1,3 +1,28 @@
-<div>
-    Hello from contact us section
+<link rel="stylesheet" href="/public/src/css/contactUs.css">
+
+<div class="container text-center">
+    <h2 class="section-header">Contact Us</h2>
+    <div class="container p-5" id="contact-us-form">
+      <form action="/action_page.php">
+        <div class="row name">
+          <div class="col-6 mb-3 FName">
+            <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+          </div>
+          <div class="col-6 mb-3 LName">
+            <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-12">
+            <input type="email" class="form-control" id="Email" placeholder="Email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-12">
+            <textarea type="text" class="form-control" id="Message" placeholder="Message"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btnC text-center">Submit</button>
+      </form>
+    </div>
 </div>
