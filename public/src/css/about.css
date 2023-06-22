@@ -1,15 +1,18 @@
 h3 {
     font-family: 'Hammersmith One';
+    color: aliceblue;
     font-size: 48px;
 }
 
 p {
     font-family: 'Hammersmith One';
+    color: aliceblue;
     font-size: 20px;
 }
 
 h5 {
     font-family: 'Hammersmith One';
+    color: aliceblue;
     padding-top: 10px;
     font-size: 20px;
 }
