@@ -1,8 +1,10 @@
 body {
     color: antiquewhite;
+    background-color: whitesmoke;
 }
 
 #page_content {
+    position: relative;
     background: linear-gradient(0deg, #000000 0%, #0B270E 100%);
     margin: 0;
 }
@@ -19,4 +21,20 @@ body {
     width: 100%;
     height: 100vh;
     z-index: 10;
+}
+
+#coming-soon-text {
+    font-size: 144px;
+    font-weight: 700;
+    background: #1CA312;
+    background: repeating-radial-gradient(ellipse farthest-corner at center center, #1CA312 0%, #90a08f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#welcome-section{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
 }
