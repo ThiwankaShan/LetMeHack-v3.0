@@ -1,0 +1,14 @@
+.btnC {
+    background-color: rgb(128, 128, 128) !important;
+    width: 20%;
+    height: 7%;
+}
+
+#Message {
+    min-height: 100px !important;
+    padding-top: 20px !important;
+}
+
+#contact-us-form{
+    max-width: 800px;
+}

@@ -2,6 +2,8 @@
 
 Welcome to LetmeHack 2023, the third product-oriented hackathon organized by Sabaragamuwa University of Sri Lanka. This hackathon aims to bring together talented individuals to build open source projects that can benefit everyone. In this repository, you will find the code for the LetmeHack 2023 landing page and registration platform.
 
+ ( [hosted site](https://letmehack-v3.web.app/) )
+
 ## Features
 
 1. **Landing Page**: The landing page provides information about LetmeHack 2023, including event details, objectives, and highlights.
@@ -26,7 +28,7 @@ To set up the LetmeHack 2023 project locally, follow these steps:
 
 4. After making changes, push your code to the GitHub repository. This will trigger the CI/CD pipeline, which will automatically deploy the latest changes to the Firebase hosting environment.
 
-5. Wait for the CI/CD pipeline to complete the deployment process. Once the deployment is successful, you can access the LetmeHack 2023 website hosted on Firebase
+5. Wait for the CI/CD pipeline to complete the deployment process. Once the deployment is successful, you can access the LetmeHack 2023 website hosted on Firebase [hosted site](https://letmehack-v3.web.app/)
 
 ## Usage
 
