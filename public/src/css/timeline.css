@@ -1,0 +1,121 @@
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title p {
+  color: #333;
+  font-size: 16px;
+}
+
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+ul.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0
+}
+
+ul.timeline-list li {
+  position: relative;
+  clear: both;
+  display: table;
+}
+
+.timeline_content {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:antiquewhite;
+}
+
+ul.timeline-list li .timeline_content {
+  width: 100%;
+  padding: 30px;
+  float: left;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  ul.timeline-list li:nth-child(2n) .timeline_content {
+    float: right;
+    text-align: left;
+  }
+
+  ul.timeline-list li:before {
+    position: absolute;
+    float: inline-start;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #faebd7;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  ul.timeline-list:before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: #faebd7;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  ul.timeline-list li .timeline_content {
+    width: 45%;
+    padding: 30px;
+    float: left;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+}
+
+ul.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #faebd7;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.timeline_content h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+
+
+.timeline_content span {
+  font-size: 18px;
+  font-weight: 500;
+}
