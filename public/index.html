@@ -5,17 +5,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LetMeHackv3</title>
+
+    <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="src/css/index.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/css/about.css">
     <link rel="stylesheet" href="src/css/sponsor.css">
     <link rel="stylesheet" href="src/css/organizedBy.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="src/css/timeline.css">
     <link rel="stylesheet" href="/public/src/css/welcome.css">
-    <script src="src/js/timeline.js"></script>
+    
+    <!-- Fonts and Icons -->
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- JS -->
+    <script src="src/js/timeline.js"></script>
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 
@@ -24,7 +30,7 @@
         <!-- <div id="particles-js"></div> -->
         <!-- <header>
         <div id="navbar"></div>
-    </header> -->
+        </header> -->
         <div id="welcome-section"></div>
         <div id="page-content-background">
             <div id="page_content">
@@ -49,48 +55,7 @@
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="../public/src/js/particles.js"></script>
     <script src="../public/src/js/sponsors.js"></script>
-    <script>
-        $("#navbar").load('components/navbar.component.html');
-        $("#welcome-section").load('sections/welcome.section.html');
-        $("#about-section").load('sections/about.section.html');
-        $("#organizedby-section").load('sections/organizedby.section.html');
-        $("#timeline-section").load('sections/timeline.section.html');
-        $("#awards-section").load('sections/awards.section.html');
-        $("#sponsors-section").load('sections/sponsors.section.html');
-        $("#contactus-section").load('sections/contactus.section.html');
-        $("#footer").load('components/footer.component.html');
-    </script>
-
-    <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function () {
-            new TypeIt("#coming-soon-text", {
-                strings: ["COMING SOON"],
-                waitUntilVisible: true
-            }).go();
-        });
-    </script>
-
-    <script>
-        const body = document.body,
-            scrollWrap = document.getElementsByClassName("smooth-scroll-wrapper")[0],
-            height = scrollWrap.getBoundingClientRect().height - 1,
-            speed = 0.04;
-
-        var offset = 0;
-
-        body.style.height = Math.floor(height) + "px";
-
-        function smoothScroll() {
-            offset += (window.pageYOffset - offset) * speed;
-
-            var scroll = "translateY(-" + offset + "px) translateZ(0)";
-            scrollWrap.style.transform = scroll;
-
-            callScroll = requestAnimationFrame(smoothScroll);
-        }
-
-        smoothScroll();
-    </script>
+    <script type="text/javascript" src="../public/src/js/index.js"></script>
 </body>
 
 </html>
