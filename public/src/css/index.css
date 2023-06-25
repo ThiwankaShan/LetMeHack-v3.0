@@ -1,16 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: antiquewhite;
     background-color: whitesmoke;
+    font-size: 18px;
+}
+
+#page-content-background{
+    position: relative;
+    background: linear-gradient(0deg, #000000 0%, #0B270E 100%);
+    align-content: center;
 }
 
 #page_content {
-    position: relative;
-    background: linear-gradient(0deg, #000000 0%, #0B270E 100%);
-    margin: 0;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .section-header {
     padding: 4rem 0 4rem 0;
+    color: #8DB885;
+    font-size: 42;
+    font-weight: 700;
 }
 
 #particles-js {
@@ -27,12 +40,12 @@ body {
     font-size: 144px;
     font-weight: 700;
     background: #1CA312;
-    background: repeating-radial-gradient(ellipse farthest-corner at center center, #1CA312 0%, #90a08f 100%);
+    background: linear-gradient(180deg,rgba(28,163,18,1) 0%, rgba(87,171,81,1) 60%, rgba(144,160,143,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#welcome-section{
+#welcome-section {
     position: relative;
     display: flex;
     min-height: 100vh;
