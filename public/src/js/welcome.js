@@ -12,4 +12,12 @@ window.addEventListener('scroll', function(){
     img3.style.top = value * 0.2 + 'px';
     img2.style.top = value * 0.1 + 'px';
     // img1.style.top = value * -0.4 + 'px';
+    
+    // Apply smooth transition to images
+    img4.style.transition = 'top 0.4s ease';
+    img3.style.transition = 'top 0.4s ease';
+    img2.style.transition = 'top 0.4s ease';
 });
+
+
+
