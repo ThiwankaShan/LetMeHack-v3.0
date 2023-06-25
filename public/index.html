@@ -17,6 +17,7 @@
     <script src="src/js/timeline.js"></script>
     <script type="text/javascript" src="/public/src/js/smooth-parallax.min.js"></script>
     <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 
 <body>
@@ -28,14 +29,14 @@
     <div id="page-content-background">
         <div id="page_content">
             <div>
-                <h1 id="coming-soon-text" class="text-center content-width fw-semibold">COMING SOON</h1>
+                <h1 id="coming-soon-text" class="text-center content-width fw-semibold py-5"></h1>
             </div>
-            <div id="about-section" class="py-5 content-width "></div>
-            <div id="organizedby-section" class="py-5 content-width "></div>
-            <!-- <div id="timeline-section" class="py-5"></div>
-            <div id="awards-section" class="py-5"></div>
-            <div id="sponsors-section" class="py-5"></div>
-            <div id="contactus-section" class="py-5"></div> -->
+            <div id="about-section" class="content-width "></div>
+            <div id="organizedby-section" class="content-width "></div>
+            <!-- <div id="timeline-section" class=""></div>
+            <div id="awards-section" class=""></div>
+            <div id="sponsors-section" class=""></div>
+            <div id="contactus-section" class=""></div> -->
         </div>
         <div id="footer"></div>
     </div>
@@ -62,6 +63,12 @@
     <script type="text/javascript">
         window.addEventListener("load", function () {
             SmoothParallax.init();
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            new TypeIt("#coming-soon-text", {
+                strings: ["COMING SOON"],
+                waitUntilVisible: true
+            }).go();
         });
     </script>
 </body>
