@@ -2,18 +2,69 @@
     <div class="row text-center">
         <h2 class="section-header fw-semibold fs-2 text-center">ORGANIZED BY</h2>
     </div>
-    <div class="row justify-content-between text-center gx-4">
+    <!-- <div class="row justify-content-between text-center gx-4">
         <div class="col-12 col-md-4 d-flex align-items-center" id="organizer-box">
-            <img src="/public/src/img/IEEE-logo.png" class="img-fluid" alt="...">
+            <img src="src/img/IEEE-logo.png" class="img-fluid" alt="...">
         </div>
         <div class="col-12 col-md-4 d-flex align-items-center" id="organizer-box">
-            <img src="/public/src/img/wie-logo.png" class="img-fluid" alt="...">
+            <img src="src/img/wie-logo.png" class="img-fluid" alt="...">
         </div>
         <div class="col-12 col-md-4 d-flex align-items-center" id="organizer-box">
-            <img src="/public/src/img/susl-logo.png" class="img-fluid" alt="...">
+            <img src="src/img/susl-logo.png" class="img-fluid" alt="...">
         </div>
         <div class="col-12 col-md-4 d-flex align-items-center" id="organizer-box">
-            <img src="/public/src/img/SOCS-logo.png" class="img-fluid" alt="...">
+            <img src="src/img/SOCS-logo.png" class="img-fluid" alt="...">
         </div>
-    </div>
+    </div> -->
+
+    <section class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide d-flex align-items-center"><img src="src/img/IEEE-logo.png" class="img-fluid"
+                        alt="..."></li>
+                <li class="splide__slide d-flex align-items-center"><img src="src/img/wie-logo.png" class="img-fluid"
+                        alt="..."></li>
+                <li class="splide__slide d-flex align-items-center"><img src="src/img/susl-logo.png" class="img-fluid"
+                        alt="..."></li>
+                <li class="splide__slide d-flex align-items-center mx-md-0"><img src="src/img/SOCS-logo.png"
+                        class="img-fluid" alt="..."></li>
+            </ul>
+        </div>
+    </section>
+
+    <script>
+        new Splide('.splide', {
+            perPage: 4,
+            rewind: true,
+            fixedWidth: '200px',
+            gap: "auto",
+            padding: { left: 0, right: 0 },
+            classes: {
+                arrows: 'splide__arrows d-none',
+                arrow: 'splide__arrow d-none',
+            },
+            breakpoints: {
+                768: {
+                    perPage: 1,
+                    fixedWidth: '250px',
+                    gap: "200px",
+                    classes: {
+                        arrows: 'splide__arrows',
+                        arrow: 'splide__arrow',
+                    },
+                    padding: { left: 60, right: 60 },
+                    focus  : 'center',
+                },
+                992: {
+                    perPage: 2,
+                    classes: {
+                        arrows: 'splide__arrows',
+                        arrow: 'splide__arrow',
+                    },
+                    padding: { left: 100, right: 100 },
+                    gap: "100px",
+                },
+            }
+        }).mount();
+    </script>
 </div>
