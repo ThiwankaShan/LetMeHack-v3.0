@@ -22,7 +22,7 @@ body {
 }
 
 .section-header {
-    padding: 4rem 0 4rem 0;
+    padding: 2rem 0 2rem 0;
     color: #7CAC16;
 }
 
@@ -41,11 +41,22 @@ body {
 }
 
 #coming-soon-text {
-    font-size: 8.4vw;
+    font-size: 20vw;
     background: #1CA312;
     background: linear-gradient(180deg, #7CAC16 50%, #ACCA6B 80%, #FFFFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+    #coming-soon-text {
+        font-size: 8.4vw;
+    }
+
+    .section-header {
+        padding: 4rem 0 4rem 0;
+        color: #7CAC16;
+    }
 }
 
 .content-width{

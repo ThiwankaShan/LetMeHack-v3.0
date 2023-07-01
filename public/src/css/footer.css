@@ -2,9 +2,13 @@
     z-index: 10;
     position: absolute;
     bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-
+@media only screen and (min-width: 768px) {
+    #footer-content{
+        margin-bottom: 100px;
+    }
+}
 #footer{
     font-size: 12px;
     padding-top: 6rem;
