@@ -22,7 +22,7 @@ body {
 }
 
 .section-header {
-    padding: 4rem 0 4rem 0;
+    padding: 2rem 0 2rem 0;
     color: #7CAC16;
 }
 
@@ -51,6 +51,11 @@ body {
 @media only screen and (min-width: 768px) {
     #coming-soon-text {
         font-size: 8.4vw;
+    }
+
+    .section-header {
+        padding: 4rem 0 4rem 0;
+        color: #7CAC16;
     }
 }
 
