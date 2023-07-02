@@ -18,3 +18,21 @@
     background: linear-gradient(to top, #0B270E, transparent);
     z-index: 10;
 }
+
+.welcome-img-mob {
+    display: block;
+}
+
+.welcome-img{
+    display: none;
+}
+
+@media only screen and (min-width: 992px){
+    .welcome-img-mob {
+        display: none;
+    }
+
+    .welcome-img{
+        display: block;
+    }
+}

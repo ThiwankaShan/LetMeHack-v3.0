@@ -66,6 +66,12 @@ body {
 #welcome-section {
     position: relative;
     display: flex;
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    #welcome-section {
+        min-height: 100vh;
+    }
 }
