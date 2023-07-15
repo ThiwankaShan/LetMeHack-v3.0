@@ -1,27 +1,43 @@
-#award-card {
-  .card {
-    width: 18rem;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-  }
+.card-group {
+  width: 65%;
+}
 
-  .card-text {
-    color: #C0C0C0;
-  }
+.card-m {
+  border: none !important;
+}
 
+.award-card {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    rgba(66, 66, 66, 0.8) 0.01%,
+    rgba(51, 51, 51, 0.5) 99.99%,
+    rgba(255, 255, 255, 0.885405) 100%
+  );
+  border-radius: 20px !important;
+  width: 70%;
+}
+
+#silver {
+  box-shadow: 0px 0px 15px 15px rgba(169, 181, 164, 0.5);
+}
+
+#gold {
+  box-shadow: 0px 0px 15px 15px rgba(212, 162, 9, 0.5);
+}
+
+#bronze {
+  box-shadow: 0px 0px 15px 15px rgba(191, 116, 63, 0.5);
+}
+
+@media only screen and (max-width: 992px) {
+  .card-group {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
   #gold {
-    box-shadow: 0 0 23px 7px #FFD700;
-  }
-
-  #silver {
-    box-shadow: 0 0 23px 7px #C0C0C0;
-  }
-
-  #bronze {
-    box-shadow: 0 0 23px 7px #CD7F32;
+    margin-top: 2rem !important;
   }
 }
